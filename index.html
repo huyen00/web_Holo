@@ -6,6 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,7 +26,7 @@
     </style>
   <body>
     
-    <nav  class="navbar navbar-expand-sm  navbar-light  bg-dark ">
+    <nav id="header" class="navbar navbar-expand-sm  navbar-light  bg-dark ">
         <div class="container">
             <!-- <a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a> -->
             <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
@@ -29,11 +34,11 @@
             </button> 
             <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
                 <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="" >About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="" >Project</a></li>
+                    <li class="nav-item"><a class="navbar-brand" href="index.html" ><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="./page/about.html" >About</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://missionxvr.com/index" >Project</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Immersive Activities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./page/contact.html">Contact</a></li>
                     
                 </ul>
             </div>
@@ -46,8 +51,8 @@
                 <h1>Holomia - Change the world you see</h1>
             </div>
         </div>
-        <video autoplay="" muted="" loop="" width="100%" height="100%"controls>
-            <source src="assets/img/video.mp4" type="video/mp4">
+        <video autoplay="" muted="" loop="" id="myVideo">
+            <source src="assets/img/Holomia.mp4" type="video/mp4">
             
         </video>
     </div>
@@ -76,12 +81,12 @@
     <div class="section3">
         <div class="container">
             <div class="row title_section3">
-                <h1>HOLOMIA OVERVIEW </h1>
-                <div style="width:300px">
+                <h1 class="title" id="title-overview">HOLOMIA OVERVIEW </h1>
+                <div id="content-overview" style="width:300px">
                     <span>We build ideas, implement product 
                         packaging experience models to make it easy for users to experience</span>
                 </div>
-                <!-- <hr class="line"> -->
+                
             </div>
             <div class="row">
                 <div class="col-overview-left">
@@ -91,7 +96,7 @@
                         <span>Holomia xây dựng lớp học ảo, phòng họp ảo</span>
                     </div>
                     <div class="learn-more">
-                        <span>learn more </span>
+                        <a href=""><span>learn more </span><i class="fas fa-angle-right icon_learnMore"></i></a>
                     </div>
                     
                 </div>
@@ -101,15 +106,191 @@
                         <h4>Nền tảng giáo dục</h4>
                         <span>Holomia xây dựng lớp học ảo, phòng họp ảo</span>
                     </div>
+                    <div class="learn-more">
+                        <a href=""><span class="learn">learn more </span><i class="fas fa-angle-right icon_learnMore"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- view project -->
+    <div class="view-project">
+        <div class="container-fluid">
+            <div class="main-view1">
+                <div class="background-educational"></div>
+                <div clas="row view-content1" style="padding-top:6rem;width:600px;padding-left:4rem;color:#ffffff;">
+                    <h1 >Nền Tảng Giáo Dục</h1>
+                    <span style="color: rgba(255, 255, 255, 0.7) ; padding-top:1rem">Bằng công nghệ VR , Holomia xóa bỏ rào cản địa lý.
+                        Giúp người dùng dễ dàng làm các hoạt động cùng nhau từ xa như lớp học ảo, phòng họp ảo</span>
+                    <div class="view">
+                        <a href="">
+                            <span>View Project </span><i class="fas fa-arrow-right icon-view"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="main-view2">
+                <div class="background-game"></div>
+                <div clas="row view-content1" style="padding-top:6rem;width:800px;padding-left:4rem;color:#ffffff;">
+                    <h1>Mission X - Sàn đấu Laser tag Thực tế ảo</h1>
+                    <span style="color: rgba(255, 255, 255, 0.7) ; padding-top:1rem">Mission X sử dụng công nghệ VR xây dựng các địa hình ảo với bối cảnh 
+                    đặc sắc, người chơi nhập vai tham chiếu như thực</span>
+                    <div class="view">
+                        <a href="">
+                            <span>View Project </span><i class="fas fa-arrow-right icon-view"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- latest new -->
+    <div class="lastest-news">
+        <hr class="line1 " style="margin-left:7rem">
+        <div class="container">
+            
+            <h1 class="title pt-5">latest news</h1>
+            <div class="row ">
+                <div class="item-news">
+                    <img src="assets/img/10.jpg" class="img-fluid" alt="">
+                    <div class="content-news">
+                        <span class="time">Dec 20, 2022</span>
+                        <div class="title-news">
+                            <a href="">
+                                <h5 class="">Đắm chìm trong không gian ảo</h5>
+                            </a>
+                            <hr class="line1">
+                            <div class="icon-view">
+                                <span><i class="fas fa-eye pr-2"></i>4</span>
+                                <span class="pl-4"><i class="fas fa-comment-alt pr-2"></i>0</span>
+                                <span class="icon-heart"><i class="fas fa-heart pr-2"></i>2</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="item-news">
+                    <img src="assets/img/10.jpg" class="img-fluid" alt="">
+                    <div class="content-news">
+                        <span class="time">Dec 20, 2022</span>
+                        <div class="title-news">
+                            <a href="">
+                                <h5 class="">Đắm chìm trong không gian ảo</h5>
+                            </a>
+                            <hr class="line1">
+                            <div class="icon-view">
+                                <span><i class="fas fa-eye pr-2"></i>4</span>
+                                <span class="pl-4"><i class="fas fa-comment-alt pr-2"></i>0</span>
+                                <span class="icon-heart"><i class="fas fa-heart pr-2"></i>2</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="item-news">
+                    <img src="assets/img/10.jpg" class="img-fluid" alt="">
+                    <div class="content-news">
+                        <span class="time">Dec 20, 2022</span>
+                        <div class="title-news">
+                            <a href="">
+                                <h5 class="">Đắm chìm trong không gian ảo</h5>
+                            </a>
+                            <hr class="line1">
+                            <div class="icon-view">
+                                <span><i class="fas fa-eye pr-2"></i>4</span>
+                                <span class="pl-4"><i class="fas fa-comment-alt pr-2"></i>0</span>
+                                <span class="icon-heart"><i class="fas fa-heart pr-2"></i>2</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="item-news">
+                    <img src="assets/img/10.jpg" class="img-fluid" alt="">
+                    <div class="content-news">
+                        <span class="time">Dec 20, 2022</span>
+                        <div class="title-news">
+                            <a href="">
+                                <h5 class="">Đắm chìm trong không gian ảo</h5>
+                            </a>
+                            <hr class="line1">
+                            <div class="icon-view">
+                                <span><i class="fas fa-eye pr-2"></i>4</span>
+                                <span class="pl-4"><i class="fas fa-comment-alt pr-2"></i>0</span>
+                                <span class="icon-heart"><i class="fas fa-heart pr-2"></i>2</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="read-more ">
+                    <button class="btn-readmore">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="company">
+            <div class="container">
+                <div class="row">
+                    <div class="company-information">
+                        <img src="assets/img/Logo_Holomia_webheader.png" class="img-fluid logo_company" alt="">
+                        <span class="title-company">HolomiaVR - Công ty công nghệ thông tin</span>
+                        <div class="link-icon">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="company-contact">
+                        <h4>Contact</h4>
+                        <div class="contact">
+                            <span><i class="fas fa-map-marker-alt pr-3"></i>3rd Floor, Ha Thanh Plaza, 102 Thai Thịnh, Dong Da dist, Hanoi, VietNam</span>
+                            <span><i class="fas fa-map-marker-alt pr-3"></i>3rd Floor, Circo Soace,No.09 Nguyen Trai, Dist.1, HCM City,VietNam</span>
+                            <span><i class="fas fa-phone-alt pr-3"></i>+84988162800</span>
+                            <span><i class="fas fa-envelope pr-3"></i>info@holomia.com</span>
+                        </div>
+                    </div>
+                    <div class="company-project">
+                        <h4>Project</h4>
+                        <ul>
+                            <li>
+                                <a href="">Holomia</a>
+                            </li>
+                            <li>
+                                <a href="">Mission X VR Arena</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="left_end">
+                            Copyright @ 2022 Holomia Technology
+                        </div>
+                        <div class="right_end">
+                           <a href=""> <span>About</span></a>
+                            <a href=""><span>News</span></a>                           
+                        </div>
+                    </div>
+                </div>
+            </div>       
+        </div>
+    </footer>
+   
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
