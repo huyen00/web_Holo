@@ -11,7 +11,10 @@ h1{
 }
 a{
     text-decoration: none !important;
-    color:#ffffff !important;
+    color:#fff !important;
+}
+li{
+    /* list-style: none; */
 }
 /* menu - header */
 #header{
@@ -46,7 +49,7 @@ a{
     padding:20px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-    color: #fff !important;
+    /* color: #fff !important; */
    
 }
 .nav-item{
@@ -147,12 +150,13 @@ a{
 #myVideo{
     position: absolute;
     width: 100%;
+   
 }
 #video_page{
     width: 100%;
     padding:0;
     position: relative;
-    height: 500px;
+    height: 600px;
 }
 #video_page .text-block{
     position: absolute;
@@ -253,13 +257,13 @@ a{
 }
 .col-overview-left{
     width: 50%;
-    animation: fadeInDown; 
-    animation-duration: 1s;
+    /* animation: fadeInDown; 
+    animation-duration: 1s; */
 }
 .col-overview-right{
     width: 50%;
-    animation: fadeInDown; 
-    animation-duration: 1s;
+    /* animation: fadeInDown; 
+    animation-duration: 1s; */
 }
 .overview {
    margin-top:5rem;
@@ -291,8 +295,8 @@ a{
     /* padding-top:20px; */
 }
 #title-overview{
-    animation: bounceInLeft; 
-    animation-duration: 2s;
+    /* animation: bounceInLeft; 
+    animation-duration: 2s; */
 }
 #content-overview{
     animation: fadeInLeft; 
@@ -327,9 +331,11 @@ a{
 }
 .view-content1 span {
     color: rgba(255, 255, 255, 0.7) ;
+    
 }
 .view{
     padding-top:2rem;
+    
     /* color: rgba(255, 255, 255, 0.7) ; */
 }
 .icon-view{
@@ -549,3 +555,283 @@ a{
     font-size: 18px;
     font-weight: 600;
 }
+
+/* Immersive - activities */
+.immersive-activities{
+    position: relative;
+    padding:0rem 0rem;
+    /* padding-bottom: 3rem; */
+}
+#Video{
+    width: 100%;
+}
+.immersive-img{
+    width: 50%;
+}
+.immersive-content{
+    width: 50%;
+    padding:2rem 5rem;
+    /* margin-top:5rem */
+
+}
+.text-immersive{
+    width: 500px;
+    justify-content: center;
+    /* text-align: center; */
+    margin: auto;
+}
+.event-itinerary{
+    padding:4rem 4rem;
+}
+.event-itinerary h5{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.col{
+    height:300px
+}
+.col-img{
+    width: 33.33%;
+    height: 100%;
+    padding:0.2rem 0.2rem;
+}
+.col-img img{
+    height: 100%;
+}
+.col-img1{
+    width: 50%;
+    height: 100%;
+    padding:0.2rem 0.2rem;
+}
+.col-img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.col-img2-left{
+    width: 60%;
+    height:100%;
+    padding:0.2rem 0.4rem;
+}
+.col-img2-left img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.col-img2-right{
+    width: 40%;
+    height:100%;
+    padding:0.2rem 0.2rem;
+}
+.col-img2-right img{
+    width: 100%;
+    height:100%;
+}
+/* holo event */
+.holo-event{
+    padding: 3rem 4rem;
+}
+.title-event-join{
+    width: 100%;
+    text-align: center;
+}
+.title-event-join h3{
+    text-transform: uppercase;
+}
+.content-event-join{
+    margin-top:2rem;
+}
+.item-event-join{
+    width: 25%;
+    border:1px solid #06152D;
+    margin:1rem 2rem;
+}
+.content-item{
+    padding:1rem;
+}
+.content-item a{
+    color:black;
+}
+.title-event{
+    
+    color:black !important;
+}
+.title-event span{
+    font-size: 22px;
+    padding:1rem 0rem;
+}
+.icon-event a{
+    color:black !important;
+}
+.icon-event i{
+    color:black;
+}
+.icon-event{
+    padding:0rem 2rem 1rem;
+}
+.icon-heart-event{
+    text-align: end;
+}
+.img-event{
+    height: 300px !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* item - immersive */
+.news_item_left h1{
+    color:black;
+}
+.link_news a{
+    color:#551A8B !important;
+  }
+  .img_news{
+    width:100%;
+  }
+  .news_item{
+    margin-top:10rem;
+    padding:3rem 0;
+  }
+  .news_item{
+    display: flex;
+  }
+  .news_item_left{
+    width: 60%;
+    display: block;
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .news_item_right{
+    width: 40%;
+  }
+  .list_item_right{
+    border: 1px solid rgba(0,0,0,.1);
+    padding:2rem;
+    border-radius: 7px;
+  }
+  .list_item_right li{
+    list-style: none;
+  }
+  .col_related_news{
+    list-style: none;
+  }
+  .number_news{
+    float: right;
+  }
+  .link_news{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-top:2rem;
+  }
+  .title_related_news{
+    color:#002A5E;
+    font-weight: 600;
+    margin-top:3rem;
+  }
+  .related_news{
+    padding-left :0 ;
+  }
+  .col_related_news{
+    border :1px solid rgba(0,0,0,.1);
+    padding:1.5rem;
+    margin-top:2rem;
+  }
+  .blog_post_news{
+    border-top :1px solid rgba(0,0,0,.1);
+    margin-top:3rem;
+  }
+  .item_blog_icon{
+    display: flex;
+  }
+  .item_blog_icon li{
+    padding-right:1.5rem;
+    list-style: none;
+  }
+  .blog_share{
+    display: flex;
+    margin-top:2rem;
+  
+  }
+  .blog_icon{
+    color:#000;
+  }
+  .blog_nav {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+  }
+  .blog_nav span{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.85em;
+      font-weight: 700;
+      letter-spacing: .1em;
+      color: #000 ;
+      /* transition: color .3s,background-color .3s; */
+  }
+  .blog_previous , .blog_next{
+    border-radius:30px;
+    border :1px solid rgba(0,0,0,.1);
+    padding: 0.5em 1.5em;
+    background-color: #f5f7fa;
+  }
+  .prev i{
+    padding-right:1rem;
+    color:black;
+  }
+  
+  .blog_previous:hover{
+    background-color: #000000;
+  }
+  .blog_previous:hover .prev i{
+    color:#ffff;
+  }
+  .blog_previous:hover .title_prev{
+    color:#ffff;
+  }
+  .blog_next:hover{
+    background-color: #000000;
+  }
+  .blog_next:hover .next i{
+    color:#ffff;
+  }
+  .blog_next:hover .title_prev{
+    color:#ffff;
+  }
+  .next i{
+    padding-left:1rem;
+  }
+  
+  .blog_next{
+    float:right;
+  }
+  .blog_nav a{
+    color:black;
+  }
+  .img-left{
+    width: 40%;
+  }
+  .text-event{
+    width: 60%;
+    padding-left:1rem;
+  }
+  .text-event a{
+    color:black !important
+  }
+  .calendar{
+    display: flex;
+  }
+  .calendar a{
+    color: black;
+    margin-left:1rem;
+   
+    border-radius: 8px;
+    background: #0755B5;
+    color: white;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 12px;
+    float: right;
+  }
