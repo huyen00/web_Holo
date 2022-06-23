@@ -202,6 +202,15 @@
         margin: auto;
         margin-top: 1rem;
     }
+    .btn-sub {
+        background-color: #3279E6;
+        margin-top: 2rem;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0.7rem 1.5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
 
 /* max-width: 480px (điện thoại di động, hiển thị chiều ngang) */
@@ -406,6 +415,15 @@
         margin: auto;
         margin-top: 1rem;
     }
+    .btn-sub {
+        background-color: #3279E6;
+        margin-top: 2rem;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0.7rem 1.5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
 
 /* max-width: 600px (máy tính bảng, hiển thị chiều dọc) */
@@ -478,5 +496,419 @@
     }
     .item-news{
         width: 100%;
+    }
+
+    /* page about us */
+    .view-aboutus h1{
+        font-size: 30px;
+    }
+    .content1 {
+        padding-top: 2rem;
+        width: 500px;
+        margin: auto;
+    }
+    .content1 span {
+        font-size: 20px;
+    }
+    .view-img {
+        height: auto;
+        padding-top: 3rem;
+    }
+    .content-img{
+        padding:1rem 2rem;
+    }
+    .content-img span {
+        font-size: 20px;
+    }
+    .aboutus2 {
+        padding: 0rem;
+    }
+    .mission-of_Us {
+        padding: 1rem 2rem;
+       margin-top:1rem;
+    }
+    .aboutus2-title {
+        width: 100%;
+    }
+    .aboutus2-content {
+        width: 100%;
+    }
+    .aboutus2-content span {
+        font-size: 20px;
+    }
+
+    /* page immersive activities */
+    .immersive-img {
+        width: 100%;
+    }
+    .immersive-content {
+        width: 100%;
+        padding: 2rem 2rem;
+        /* margin-top: 5rem; */
+    }
+    .event-itinerary {
+        padding: 2rem 2rem;
+    }
+    .col-img2-left{
+        width: 50%;
+    }
+    .col-img2-right{
+        width: 50%;
+    }
+    .col3{
+        height: auto;
+    }
+    .col-img{ 
+        margin-top: 0.5rem;
+    }
+    .holo-event {
+        padding: 2rem 2rem;
+    }
+    .title-event-join  h1{
+        font-size: 30px;
+    }
+    .item-event-join {
+        width: 48%;
+        margin: 1rem 0.3rem;
+    }
+    .icon-event a{
+        font-size: 13px;
+    }
+
+    /* page - contact */
+    .page-contact h1{
+        font-size: 30px;
+    }
+    .icon-contact a i{
+        font-size: 20px;
+    }
+    .form-group {
+        width: 75%;
+       
+    }
+    .btn-sub {
+        background-color: #3279E6;
+        margin-top: 2rem;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        padding: 0.7rem 1.5rem;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+}
+
+/* max-width: 800px (máy tính bảng, hiển thị chiều ngang) */
+@media all and (max-width:800px){
+
+    /* footer */
+    .title-company{
+        font-size: 24px;
+    }
+    .company-information {
+        width: 36%;
+    }
+    .company-project {
+        width: 31%;
+        padding: 0rem 1rem;
+    }
+    /* page home */
+    #video_page{
+        height: 440px;
+    }
+    #video_page h1{
+        font-size: 35px;
+        color:#f49b18
+    }
+    .section2-img{
+        width: 50%;
+    }
+    .title_section3 h1{
+        font-size: 35px;
+    }
+    .section2{
+        padding:3rem 0rem;
+    }
+    .section3{
+        padding:0rem 0rem 3rem;
+    }
+    .line1 {
+        width: 250px;
+        color: #ffffff;
+        z-index: 20;
+        margin: initial;
+        margin-top: 0rem;
+        border-top: 1px solid #f8f9fa;
+        margin-left: 1rem;
+    }
+    .lastest-news h1{
+        font-size: 35px;
+        color: #ffffff;
+    }
+    .icon-view span{
+        font-size: 13px;
+    }
+    .title-news h5{
+        font-size: 1.05rem;
+        margin-bottom: 1rem;
+    }
+    .read-more {
+        padding-top:0rem;
+    }
+
+    /* page about us */
+    .main-about {
+        height: 50vh;
+        box-sizing: content-box;
+    }
+    .content-aboutus h1{
+        font-size: 35px;
+    }
+    .view-aboutus h1{
+        font-size: 35px;
+    }
+    .view-img {
+        height: auto;
+        padding-top: 3rem;
+    }
+    .content1 span{
+        font-size: 23px;
+    }
+    .content-img{
+        padding:2rem 2rem;
+    }
+    .content-img span{
+        font-size: 23px;
+    }
+    .aboutus2-title h2 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .mission-of_Us{
+        margin-bottom: 1rem;
+    }
+    .aboutus2-content span{
+        font-size: 23px;
+    }
+    .aboutus2-title3 h2{
+        margin-top: 0%;
+    }
+
+    /* page immersive */
+    .event-itinerary {
+        padding: 2rem 2rem;
+    }
+    .immersive-img{
+        width: 100%;
+    }
+    .immersive-content{
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+    .text-immersive {
+        width: 600px;
+    }
+    .holo-event {
+        padding: 2rem 2rem;
+    }
+    .title-event-join h1{
+        font-size: 35px;
+    }
+    .item-event-join {
+        width: 45%;
+        margin: 1rem 1rem;
+    }
+
+    /* page contact */
+    .page-contact h1{
+        font-size: 35px;
+    }
+    .icon-contact i {
+        font-size: 25px;
+    }
+    .form-group {
+        width: 75%;
+    }
+}
+
+/*  max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)*/
+@media all and (max-width:768px){
+     /* footer */
+     .title-company{
+        font-size: 24px;
+    }
+    .company-information {
+        width: 36%;
+    }
+    .company-project {
+        width: 31%;
+        padding: 0rem 1rem;
+    }
+    /* page home */
+    #video_page{
+        height: 440px;
+    }
+    #video_page h1{
+        font-size: 35px;
+        color:#f49b18
+    }
+    .section2-img{
+        width: 50%;
+    }
+    .title_section3 h1{
+        font-size: 35px;
+    }
+    .section2{
+        padding:3rem 0rem;
+    }
+    .section3{
+        padding:0rem 0rem 3rem;
+    }
+    .line1 {
+        width: 250px;
+        color: #ffffff;
+        z-index: 20;
+        margin: initial;
+        margin-top: 0rem;
+        border-top: 1px solid #f8f9fa;
+        margin-left: 1rem;
+    }
+    .lastest-news h1{
+        font-size: 35px;
+        color: #ffffff;
+    }
+    .icon-view span{
+        font-size: 13px;
+    }
+    .title-news h5{
+        font-size: 1.05rem;
+        margin-bottom: 1rem;
+    }
+    .read-more {
+        padding-top:0rem;
+    }
+
+    /* page about us */
+    .main-about {
+        height: 50vh;
+        box-sizing: content-box;
+    }
+    .content-aboutus h1{
+        font-size: 35px;
+    }
+    .view-aboutus h1{
+        font-size: 35px;
+    }
+    .view-img {
+        height: auto;
+        padding-top: 3rem;
+    }
+    .content1 span{
+        font-size: 23px;
+    }
+    .content-img{
+        padding:2rem 2rem;
+    }
+    .content-img span{
+        font-size: 23px;
+    }
+    .aboutus2-title h2 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .mission-of_Us{
+        margin-bottom: 1rem;
+    }
+    .aboutus2-content span{
+        font-size: 23px;
+    }
+    .aboutus2-title3 h2{
+        margin-top: 0%;
+    }
+
+    /* page immersive */
+    .event-itinerary {
+        padding: 2rem 2rem;
+    }
+    .immersive-img{
+        width: 100%;
+    }
+    .immersive-content{
+        width: 100%;
+        padding: 2rem 2rem;
+    }
+    .text-immersive {
+        width: 600px;
+    }
+    .holo-event {
+        padding: 2rem 2rem;
+    }
+    .title-event-join h1{
+        font-size: 35px;
+    }
+    .item-event-join {
+        width: 45%;
+        margin: 1rem 1rem;
+    }
+
+    /* page contact */
+    .page-contact h1{
+        font-size: 35px;
+    }
+    .icon-contact i {
+        font-size: 25px;
+    }
+    .form-group {
+        width: 75%;
+    }
+}
+
+/* max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang) */
+@media all and (max-width:1024px){
+    /* page home */
+    #video_page{
+        height: 500px;
+    }
+    #video_page h1{
+        font-size: 40px;
+        font-weight: 700;
+        color:#f49b18;
+    }
+    .section2-img{
+        width: 50%;
+    }
+    .line1 {
+        width: 350px;
+      
+        margin-left: 2rem;
+    }
+    .lastest-news h1{
+        color:#ffffff;
+    }
+    .icon-view span{
+        font-size: 15px;
+    }
+    .view-img {
+        height: auto;
+        padding-top: 3rem;
+    }
+    .content-img{
+        padding:2rem 2rem;
+    }
+    .mission-of_Us{
+        margin-bottom: 1rem;
+    }
+    .immersive-content {
+        width: 50%;
+        padding: 1rem 2rem;
+
+    }
+    .text-immersive {
+        width: 430px;
+    }
+    .item-event-join {
+        width: 30%;
+        border: 1px solid #06152D;
+        margin: 1rem 0.7rem;
     }
 }
