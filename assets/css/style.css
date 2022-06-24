@@ -8,7 +8,8 @@ h1{
 }
 .title{
     text-transform: uppercase;
-    color:black;
+    /* color:black; */
+    font-family: 'Oxanium', cursive;
 }
 a{
     text-decoration: none !important;
@@ -48,6 +49,7 @@ li{
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding:20px;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-light .navbar-nav .nav-link:hover{
     /* color: #fff !important; */
@@ -126,6 +128,9 @@ li{
 .company-project a{
     color: rgba(255, 255, 255, 0.7) !important;
 }
+.company-project ul li a:hover{
+    color:#f49b18 !important;
+}
 
 .footer_copyright{
     background-color: #06152D;
@@ -147,6 +152,11 @@ li{
     padding-right: 2rem;
     color: #ffff;
 }
+.right_end a:hover{
+    color:#f49b18 !important;
+}
+
+/* page home */
 /* video */
 #myVideo{
     position: absolute;
@@ -188,6 +198,11 @@ li{
     right: 0;
     left: 0;
     z-index: 3;
+}
+#video_page h1{
+    color: #f49b18;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 /* section2 */
 .section2{
@@ -261,13 +276,9 @@ li{
 }
 .col-overview-left{
     width: 50%;
-    /* animation: fadeInDown; 
-    animation-duration: 1s; */
 }
 .col-overview-right{
     width: 50%;
-    /* animation: fadeInDown; 
-    animation-duration: 1s; */
 }
 .overview {
    margin-top:5rem;
@@ -296,11 +307,6 @@ li{
     font-size: 20px;
     color:#ffffff;
     margin-left:8px;
-    /* padding-top:20px; */
-}
-#title-overview{
-    /* animation: bounceInLeft; 
-    animation-duration: 2s; */
 }
 #content-overview{
     animation: fadeInLeft; 
@@ -341,12 +347,9 @@ li{
 }
 .view-content1 span {
     color: rgba(255, 255, 255, 0.7) ;
-    
 }
 .view{
     padding-top:2rem;
-    
-    /* color: rgba(255, 255, 255, 0.7) ; */
 }
 .icon-view{
     padding-left:1rem;
@@ -379,6 +382,9 @@ li{
     background-color: #06152D;
     padding:3rem 0rem;
 }
+.lastest-news h1{
+    color:#ffffff;
+}
 .item-news{
     width: 50%;
     position: relative;
@@ -404,12 +410,16 @@ li{
     left: 0;
     position: absolute;
     padding: 1rem 2rem;
+    margin-top:1.5rem;
   
 }
 .title-news{
     position: absolute;
     bottom: 8%;
     padding-left:2rem;
+}
+.title-lastest-news:hover{
+    color:#f49b18;
 }
 .line1 {
     width: 450px;
@@ -448,6 +458,11 @@ li{
 }
 
 /* page about us */
+.content-aboutus h1{
+    color: #f49b18;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .container-fluid .main-about{
     position: relative;
 }
@@ -570,6 +585,16 @@ li{
     font-size: 18px;
     font-weight: 600;
 }
+.btn-sub:hover{
+    background-color:#f49b18;
+
+}
+
+
+
+
+
+
 
 /* Immersive - activities */
 .immersive-activities{
@@ -595,6 +620,12 @@ li{
     /* text-align: center; */
     margin: auto;
 }
+.text-immersive a{
+    color:black !important;
+}
+.text-immersive h5{
+    text-transform: uppercase;
+}
 .event-itinerary{
     padding:4rem 4rem;
 }
@@ -609,39 +640,61 @@ li{
     width: 33.33%;
     height: 100%;
     padding:0.2rem 0.2rem;
+    overflow: hidden;
 }
 .col-img img{
     height: 100%;
+    transition: 0.5s;
+}
+.col-img img:hover{
+    transform: scale(1.2);
 }
 .col-img1{
     width: 50%;
     height: 100%;
     padding:0.2rem 0.2rem;
+    overflow: hidden;
 }
 .col-img1 img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transition: 0.5s;
+}
+.col-img1 img:hover{
+    transform: scale(1.2);
 }
 .col-img2-left{
     width: 60%;
     height:100%;
     padding:0.2rem 0.4rem;
+    overflow: hidden;
 }
 .col-img2-left img{
     width: 100%;
     height:100%;
     object-fit: cover;
+    transition: 0.5s;
+}
+.col-img2-left img:hover{
+    transform: scale(1.2);
 }
 .col-img2-right{
     width: 40%;
     height:100%;
     padding:0.2rem 0.2rem;
+    overflow: hidden;
 }
 .col-img2-right img{
     width: 100%;
     height:100%;
+    transition: 0.5s;
 }
+.col-img2-right img:hover{
+    transform: scale(1.2);
+}
+
+
 /* holo event */
 .holo-event{
     padding: 3rem 4rem;
@@ -655,6 +708,7 @@ li{
 }
 .content-event-join{
     margin-top:2rem;
+    justify-content: center;
 }
 .item-event-join{
     width: 25%;
@@ -675,6 +729,9 @@ li{
     font-size: 22px;
     padding:1rem 0rem;
 }
+.title-event span:hover{
+    color:#f49b18;
+  }
 .icon-event a{
     color:black !important;
 }
@@ -876,3 +933,37 @@ li{
     float: right;
     margin-left:1rem;
   }
+
+  /* demo meunu */
+  #header{
+    height: 110px;
+    background: black;
+    top: 0px;
+  }
+  .logo{
+    height: 100%;
+    margin-top: 0;
+  }
+  #header .container{
+    height:100%;
+    display: flex;
+  }
+  .logo-holo{
+    width: 120px;
+  }
+  .logo-menu{
+    width: 30%;
+  }
+  .nav_header{
+    width: 70%;
+  }
+  .list-menu{
+    display:flex;
+    justify-content: end;
+  }
+  .menu__item {
+    padding:1rem 2rem;
+    list-style: none;
+  }
+
+  
