@@ -13,3 +13,9 @@
         }
         prevScrollpos = currentScrollPos;
         }
+
+        $(document).ready(function(){
+            $(".logo-close").click(function(){
+              $(".mean-nav").toggle();
+            });
+          });

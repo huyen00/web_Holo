@@ -101,6 +101,16 @@
 }
 /* max-width: 800px (máy tính bảng, hiển thị chiều ngang) */
 @media all and (max-width:800px){
+    /* menu */
+    .menu-mobile{
+        display: block;
+    }
+    #header{
+        height:auto;
+    }
+    .nav_header{
+        width: 100%;
+    }
 
     /* footer */
     .title-company{
@@ -234,6 +244,16 @@
 
 /*  max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)*/
 @media all and (max-width:768px){
+    /* menu */
+    .menu-mobile{
+        display: block;
+    }
+    #header{
+        height:auto;
+    }
+    .nav_header{
+        width: 100%;
+    }
      /* footer */
      .title-company{
         font-size: 24px;
@@ -367,7 +387,16 @@
 
 /* max-width: 600px (máy tính bảng, hiển thị chiều dọc) */
 @media all and (max-width:600px){
-
+/* menu */
+.menu-mobile{
+    display: block;
+}
+#header{
+    height:auto;
+}
+.nav_header{
+    width: 100%;
+}
     /* footer */
     .company-information{
         width: 50%;
@@ -541,6 +570,17 @@
 
 /* max-width: 480px (điện thoại di động, hiển thị chiều ngang) */
 @media all and (max-width:480px){
+
+    /* menu */
+    .menu-mobile{
+        display: block;
+    }
+    #header{
+        height:auto;
+    }
+    .nav_header{
+        width: 100%;
+    }
     /* footer */
     .company-information {
         width: 100%;
@@ -755,9 +795,19 @@
 @media  only screen and  (max-width:320px){
 
     /* menu */
-    .navbar-toggler{
-        background: dimgrey !important;
+    
+    .menu-mobile{
+        display: block;
     }
+    #header{
+        height:auto;
+    }
+    .nav_header{
+        width: 100%;
+    }
+
+    
+
     /* footer */
     .company-information {
         width: 100%;
