@@ -28,24 +28,80 @@
     </style>
   <body>
     
-    <nav id="header" class="navbar navbar-expand-sm  navbar-light  bg-dark " style="position: relative">
-        <div class="container">
-            <!-- <a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a> -->
-            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-            <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="navbar-brand" href="../index.html" ><img src="../assets/img/Holomia.png" alt="logogaming" class="logo"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/about.html" >About</a></li>
-                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://missionxvr.com/index" >Project</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/page/immersive.html">Immersive Activities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
-                    
-                </ul>
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="nav_header">
+                    <div class="menu-pc">
+                        <div id="nav_sticky" class="menu-content overlay">
+                            <div class="logo-menu-pc">
+                                <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo logo-pc img-fluid" alt=""></a>
+                            </div>
+                            <nav class="menu-demo">
+                                <ul class="list-menu">
+                                    <li class="menu__item">
+                                       
+                                        <a href="./about.html" class="menu__link  ">About us</a>
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="https://missionxvr.com/index" target="_blank" class="menu__link ">Project </a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="../page/immersive.html" class="menu__link active">Immersive Activies</a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+                                        <a href="./contact.html" class="menu__link menu_news ">Contact </a>
+                                    </li>
+                                </ul>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                
+                    <div class="menu-mobile mean-container">
+                        
+                        <div class="mean-bar">
+                            <div class=" logo-mobile">
+                                <div class="logo-menu">
+                                    <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo img-fluid" alt=""></a>
+                                </div>
+                                <div class="logo-close"  aria-expanded="false" data-toggle="collapse" data-target="#menusilde">
+                                    <!-- <span  class="meanmenu-reveal meanclose" >X</span> -->
+                                    <i class="fas fa-bars open-menu"></i>
+                                </div>
+                                
+                            </div>
+                            
+                            <nav class="mean-nav collapse"  id="menusilde">
+                                <ul>
+                                    <li>
+                                        <a href="./about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://missionxvr.com/index">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="../page/immersive.html">Immersive Activies</a>
+                                    </li>
+                                    <li>
+                                        <a href="./contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
+            
         </div>
-    </nav>
+
+    </header>
     <!-- sự kiện gần đây nhất Holo -->
     <div class="immersive-activities">
         <div class="container-fluid">
@@ -58,7 +114,7 @@
                 </div>
                 <div class="immersive-content">
                     <div class=" text-immersive">
-                        <a href=""><h5>𝗩𝗜𝗘𝗧𝗡𝗔𝗠 𝗦𝗨𝗠𝗠𝗘𝗥 𝗙𝗔𝗜𝗥 𝟮𝟬𝟮𝟮 (#𝗩𝗦𝗙𝟮𝟬𝟮𝟮)</h5></a>
+                        <a href="../page/item-immersive.html"><h5>𝗩𝗜𝗘𝗧𝗡𝗔𝗠 𝗦𝗨𝗠𝗠𝗘𝗥 𝗙𝗔𝗜𝗥 𝟮𝟬𝟮𝟮 (#𝗩𝗦𝗙𝟮𝟬𝟮𝟮)</h5></a>
                         <span>Chúng mình đồng hành cùng Lễ Hội Mùa Hè - Festival Huế 2022
                             #VSF2022 là sự kiện quy tụ những thương hiệu đang khai thác và ứng dụng yếu tố văn hoá Việt Nam trong việc phát triển sản phẩm; là sân chơi sáng tạo cho các bạn trẻ mê văn hóa Việt, muốn đưa những nét xưa vào đời sống hiện đại của chính mình. Đây là sự kiện đồng hành cùng Festival Huế 2022.
                             Holomia mang tới sự kiện:<br>
@@ -72,9 +128,9 @@
                     </div>
                     
                 </div>
-                <div class="immersive-content">
+                <!-- <div class="immersive-content">
                     <div class="text-immersive">
-                        <a href=""><h5>Sự kiện Metaverse tại Vũng Tàu</h5></a>
+                        <a href="../page/item-immersive.html"><h5>Sự kiện Metaverse tại Vũng Tàu</h5></a>
                         <span>Holomia tin tưởng sự kiện ảo, làm việc và giải trí trong môi trường
                              ảo sẽ thành hiện thực trong tương lai gần. Mọi người từ khắp nơi trên
                               thế giới có thể cùng tham gia, cùng giao lưu gặp gỡ nhau đầy vui vẻ không 
@@ -91,120 +147,54 @@
                 </div>
                 <div class="immersive-img">
                     <img src="../assets/img/immersive.jpg" class="img-fluid" alt="">
-                    <!-- <video autoplay="" muted="" loop="" id="Video">
-                        <source src="../assets/img/Holomia.mp4" type="video/mp4">
-                        
-                    </video> -->
+                   
+                </div> -->
+            </div>
+            <div class="row">
+                <div class="immersive-1">
+                    <div class="">
+                        Holomia tin tưởng sự kiện ảo, làm việc và giải trí trong môi trường
+                             ảo sẽ thành hiện thực trong tương lai gần. Mọi người từ khắp nơi trên
+                              thế giới có thể cùng tham gia, cùng giao lưu gặp gỡ nhau đầy vui vẻ không 
+                              còn giới hạn khoảng cách.
+                              <br>
+                              Nền tảng giáo dục thực tế ảo Holomia đang phát triển bắt đầu mở cho quy mô 16 người dùng trong một phiên, số lượng phiên không giới hạn. Một số lĩnh vực cần tận dụng nguồn lực không gian, con người đã bắt đầu áp dụng để giải bài toàn kép về chi phí, vận hành trong thời đại Metaverse.
+                                Quý vị làm
+                                Bất động sản
+                                Giáo dục
+                                Vui chơi giải trí
+                                Muốn ứng dụng VR thì Holomia sẵn sàng nhé.
+                    </div>
+                </div>
+                <div class="immersive-1">
+                    <div class="">
+                        <img src="../assets/img/99.jpg" alt="">
+                    </div>
+                </div>
+                <div class="immersive-1">
+                    <div class="">
+                        Holomia tin tưởng sự kiện ảo, làm việc và giải trí trong môi trường
+                             ảo sẽ thành hiện thực trong tương lai gần. Mọi người từ khắp nơi trên
+                              thế giới có thể cùng tham gia, cùng giao lưu gặp gỡ nhau đầy vui vẻ không 
+                              còn giới hạn khoảng cách.
+                              <br>
+                              Nền tảng giáo dục thực tế ảo Holomia đang phát triển bắt đầu mở cho quy mô 16 người dùng trong một phiên, số lượng phiên không giới hạn. Một số lĩnh vực cần tận dụng nguồn lực không gian, con người đã bắt đầu áp dụng để giải bài toàn kép về chi phí, vận hành trong thời đại Metaverse.
+                                Quý vị làm
+                                Bất động sản
+                                Giáo dục
+                                Vui chơi giải trí
+                                Muốn ứng dụng VR thì Holomia sẵn sàng nhé.
+                    </div>
+                </div>
+                <div class="immersive-1">
+                    <div class="">
+                        <img src="../assets/img/1.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="row ">
                 <div class="event-itinerary w-100 ">
-                    <h5 >Hành trình của Holomia trong các sự kiện từ nhỏ đến lớn trên mọi miền của đất nước....</h5>
-                    
-                    <!-- <div class="gallery">
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="gallery-item">
-                            <div class="gallery-img">
-                                <img src="../assets/img/1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                     -->
-                    
+                    <h5 >Hành trình của Holomia trong các sự kiện từ nhỏ đến lớn trên mọi miền của đất nước....</h5>                  
                      <div class="gallery">
                         <div class="gallery__item">
                           <div class="embed">
@@ -307,36 +297,6 @@
                           </div>
                         </div>
                       </div>
-                    
-                    
-                     <!-- <div class="row w-100 col ">
-                        <div class="col-img1">
-                            <img src="../assets/img/immersive.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-img1">
-                            <img src="../assets/img/12.jpg" class="img-fluid" alt="">
-                        </div>
-                        
-                    </div>
-                    <div class="row col">
-                        <div class="col-img2-left">
-                            <img src="../assets/img/6.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-img2-right">
-                            <img src="../assets/img/99.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="row w-100 col col3 ">
-                        <div class="col-img">
-                            <img src="../assets/img/9.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-img">
-                            <img src="../assets/img/97.jpg"class="img-fluid" alt="">
-                        </div>
-                        <div class="col-img">
-                            <img src="../assets/img/1.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div> -->
                 </div>                   
             </div>  
             <div class=" row holo-event" style="padding:0">
@@ -349,11 +309,14 @@
                         <div class=" d-flex">
                             <div class="row content-event-join">
                                 <div class="item-event-join">
-                                    <img src="../assets/img/1.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/1.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        <!-- <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span> -->
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -367,11 +330,14 @@
                                     </div>                   
                                 </div>
                                 <div class="item-event-join">
-                                    <img src="../assets/img/7.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/7.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        <!-- <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span> -->
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -385,11 +351,14 @@
                                     </div>                   
                                 </div>
                                 <div class="item-event-join">
-                                    <img src="../assets/img/99.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/99.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -403,11 +372,14 @@
                                     </div>                   
                                 </div>
                                 <div class="item-event-join">
-                                    <img src="../assets/img/95.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/95.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -421,11 +393,14 @@
                                     </div>                   
                                 </div>
                                 <div class="item-event-join">
-                                    <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -439,11 +414,14 @@
                                     </div>                   
                                 </div>
                                 <div class="item-event-join">
-                                    <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    <div class="item-img">
+                                        <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                       
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -456,12 +434,15 @@
                                         </div>
                                     </div>                   
                                 </div>
-                                <div class="item-event-join">
-                                    <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                <div class="item-event-join collapse" id="hidden">
+                                    <div class="item-img">
+                                        <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
                                     <div class="content-item">
-                                        <span class="d-block">Dec, 20,2022 - 10 min</span>
-                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a> <a href=""><span class="d-block title-event">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
-                                        <span>Dự án đã được đề cử giải Ý tưởng - Vì tình yêu HN của giải thưởng Bùi Xuân Thái - Vì tình yêu HN lần thứ 14-2021...</span>
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
+                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a>
+                                        
                                     </div> 
                                     <hr >  
                                     <div class="icon-event d-flex">
@@ -474,8 +455,53 @@
                                         </div>
                                     </div>                   
                                 </div>
-                            </div>                  
+                                <div class="item-event-join collapse" id="hidden">
+                                    <div class="item-img">
+                                        <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
+                                    <div class="content-item">
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
+                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a> 
+        
+                                    </div> 
+                                    <hr >  
+                                    <div class="icon-event d-flex">
+                                        <div class="w-50">
+                                            <a href=""><i class="fas fa-eye pr-2"></i>74</a>
+                                            <a href="" class="pl-4"><i class="fas fa-comment-alt pr-2"></i>90</a>
+                                        </div>               
+                                        <div class="w-50 icon-heart-event" >
+                                            <a href="">16<i class="fas fa-heart pl-2"></i></a>
+                                        </div>
+                                    </div>                   
+                                </div>
+                                <div class="item-event-join collapse" id="hidden">
+                                    <div class="item-img">
+                                        <img src="../assets/img/97.jpg" class="img-fluid img-event" alt="">
+                                    </div>
+                                    
+                                    <div class="content-item">
+                                        <span class="d-block time-event">Dec, 20,2022 - 10 min</span>
+                                         <a href="../page/item-immersive.html" target="_blank" class="title-event"><span class="d-block ">Lễ trao giải Bùi Xuân Thái với dự án Tái lập kiến trúc chùa Diên Hựu - Một cột bằng công nghệ thực tế ảo</span></a> 
+                                    </div> 
+                                    <hr >  
+                                    <div class="icon-event d-flex">
+                                        <div class="w-50">
+                                            <a href=""><i class="fas fa-eye pr-2"></i>74</a>
+                                            <a href="" class="pl-4"><i class="fas fa-comment-alt pr-2"></i>90</a>
+                                        </div>               
+                                        <div class="w-50 icon-heart-event" >
+                                            <a href="">16<i class="fas fa-heart pl-2"></i></a>
+                                        </div>
+                                    </div>                   
+                                </div>
+                            </div>    
+                                          
                         </div> 
+                        <div class="event-readmore">
+                            <a href="#hidden"  aria-expanded="false" data-toggle="collapse" class="btn-event-readmore btn-readmore"> Read More</a>
+                        </div>
                     
                     </div>
                     <!-- <div class="row">
@@ -551,7 +577,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
    
 </body>
 </html>

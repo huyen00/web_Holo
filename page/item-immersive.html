@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/reponsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,24 +28,80 @@
     </style>
   <body>
     
-    <nav id="header"  class="navbar navbar-expand-sm  navbar-light  bg-dark ">
-        <div class="container">
-            <!-- <a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a> -->
-            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-            <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="navbar-brand" href="/index.html" ><img src="../assets/img/Holomia.png" alt="logogaming" class="logo"></a></li>
-                    <li class="nav-item"><a class="nav-link " href="/page/about.html" >About</a></li>
-                    <li class="nav-item" ><a class="nav-link" target="_blank" href="https://missionxvr.com/index" >Project</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/immersive.html">Immersive Activities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
-                    
-                </ul>
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="nav_header">
+                    <div class="menu-pc">
+                        <div id="nav_sticky" class="menu-content overlay">
+                            <div class="logo-menu-pc">
+                                <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo logo-pc img-fluid" alt=""></a>
+                            </div>
+                            <nav class="menu-demo">
+                                <ul class="list-menu">
+                                    <li class="menu__item">
+                                       
+                                        <a href="./page/about.html" class="menu__link  ">About us</a>
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="https://missionxvr.com/index" target="_blank" class="menu__link ">Project </a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="./page/immersive.html" class="menu__link ">Immersive Activies</a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+                                        <a href="./page/contact.html" class="menu__link menu_news ">Contact </a>
+                                    </li>
+                                </ul>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                
+                    <div class="menu-mobile mean-container">
+                        
+                        <div class="mean-bar">
+                            <div class=" logo-mobile">
+                                <div class="logo-menu">
+                                    <a href=""><img src="../assets/img/Holomia.png" class="logo-holo img-fluid" alt=""></a>
+                                </div>
+                                <div class="logo-close"  aria-expanded="false" data-toggle="collapse" data-target="#menusilde">
+                                    <!-- <span class="meanmenu-reveal meanclose" style="">X</span> -->
+                                    <i class="fas fa-bars open-menu"></i>
+                                </div>
+                                
+                            </div>
+                            
+                            <nav class="mean-nav collapse"  id="menusilde">
+                                <ul>
+                                    <li>
+                                        <a href="./about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://missionxvr.com/index" target="_blank">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="./immersive.html">Immersive Activies</a>
+                                    </li>
+                                    <li>
+                                        <a href="./contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
+            
         </div>
-    </nav>
+
+    </header>
     <div class="page_item_news">
         <div class="container">
             <div class="row news_item">
@@ -247,6 +304,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+    
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>

@@ -27,25 +27,82 @@
         }
     </style>
   <body>
-    
-    <nav id="header" class="navbar navbar-expand-sm  navbar-light  bg-dark ">
-        <div class="container">
-            <!-- <a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a> -->
-            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-            <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="navbar-brand " href="index.html" ><img src="assets/img/Holomia.png" alt="logogaming" class="logo"></a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/about.html" >About</a></li>
-                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://missionxvr.com/index" >Project</a></li>
-                    <li class="nav-item"><a class="nav-link " href="/page/immersive.html">Immersive Activities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
-                    
-                </ul>
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="nav_header">
+                    <div class="menu-pc">
+                        <div id="nav_sticky" class="menu-content overlay">
+                            <div class="logo-menu-pc">
+                                <a href="index.html"><img src="assets/img/Holomia.png" class="logo-holo logo-pc img-fluid" alt=""></a>
+                            </div>
+                            <nav class="menu-demo">
+                                <ul class="list-menu">
+                                    <li class="menu__item">
+                                       
+                                        <a href="page/about.html" class="menu__link  ">About us</a>
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="https://missionxvr.com/index" target="_blank" class="menu__link ">Project </a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="page/immersive.html" class="menu__link ">Immersive Activies</a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+                                        <a href="page/contact.html" class="menu__link menu_news ">Contact </a>
+                                    </li>
+                                </ul>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                
+                    <div class="menu-mobile mean-container">
+                        
+                        <div class="mean-bar">
+                            <div class=" logo-mobile">
+                                <div class="logo-menu">
+                                    <a href="index.html"><img src="assets/img/Holomia.png" class="logo-holo img-fluid" alt=""></a>
+                                </div>
+                                <!-- <div class="open-menu">
+                                    <i class="fas fa-bars"></i>
+                                </div> -->
+                                <div class="logo-close"  aria-expanded="false" data-toggle="collapse" data-target="#menusilde">
+                                    <i class="fas fa-bars open-menu"></i>
+                                    <span class="meanmenu-reveal meanclose close-menu" style="">X</span>
+                                </div>
+                                
+                            </div>
+                            <nav class="mean-nav collapse"  id="menusilde"><nav class="mean-nav">
+                                <ul>
+                                    <li>
+                                        <a href="page/about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://missionxvr.com/index" target="_blank">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="page/immersive.html">Immersive Activies</a>
+                                    </li>
+                                    <li>
+                                        <a href="page/contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
+            
         </div>
-    </nav>
+
+    </header>
     <!-- video -->
     <div id="video_page">
         <div class="text-block">
@@ -94,7 +151,7 @@
                 <div class="col-overview-left">
                     <div class="overview" data-aos="fade-down">
                         <img src="assets/img/icon-right.webp" class=" img_fluid" alt="">
-                        <h4>Nền tảng giáo dục</h4>
+                        <h4>Tạo một lớp học</h4>
                         <span>Holomia xây dựng lớp học ảo, phòng họp ảo</span>
                     </div>
                     <div class="learn-more" data-aos="fade-right">
@@ -105,7 +162,7 @@
                 <div class="col-overview-right" >
                     <div class="overview" data-aos="fade-down">
                         <img src="assets/img/icon-right.webp" class=" img_fluid" alt="">
-                        <h4>Nền tảng giáo dục</h4>
+                        <h4>Không gian tương tác</h4>
                         <span>Holomia xây dựng lớp học ảo, phòng họp ảo</span>
                     </div>
                     <div class="learn-more" data-aos="fade-right">
@@ -125,7 +182,7 @@
                     <span  style="color: rgba(255, 255, 255, 0.7) ; padding-top:1rem">Bằng công nghệ VR , Holomia xóa bỏ rào cản địa lý.
                         Giúp người dùng dễ dàng làm các hoạt động cùng nhau từ xa như lớp học ảo, phòng họp ảo</span>
                     <div class="view ">
-                        <a  class=" " href="">
+                        <a  class=" " href="page/immersive.html">
                             <span >View Project </span><i class="fas fa-arrow-right icon-view"></i>
                         </a>
                     </div>
@@ -138,7 +195,7 @@
                     <span data-aos="fade-right" style="color: rgba(255, 255, 255, 0.7) ; padding-top:1rem">Mission X sử dụng công nghệ VR xây dựng các địa hình ảo với bối cảnh 
                     đặc sắc, người chơi nhập vai tham chiếu như thực</span>
                     <div class="view">
-                        <a  href="">
+                        <a  href="https://missionxvr.com/index" target="_blank">
                             <span class="">View Project </span><i class="fas fa-arrow-right icon-view"></i>
                         </a>
                         

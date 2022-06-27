@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> -->
 
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -28,24 +30,80 @@
     </style>
   <body>
     
-    <nav id="header"  class="navbar navbar-expand-sm  navbar-light  bg-dark ">
-        <div class="container">
-            <!-- <a class="navbar-brand"><img src="assets/img/Logo_Holomia_webheader.png" alt="logogaming" class="logo"></a> -->
-            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-            <div class="collapse navbar-collapse nav justify-content-end" id ="menu">
-                <ul class="navbar-nav ">
-                    <li class="nav-item"><a class="navbar-brand" href="/index.html" ><img src="../assets/img/Holomia.png" alt="logogaming" class="logo"></a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/page/about.html" >About</a></li>
-                    <li class="nav-item" ><a class="nav-link" target="_blank" href="https://missionxvr.com/index" >Project</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/immersive.html">Immersive Activities</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/page/contact.html">Contact</a></li>
-                    
-                </ul>
+    <header>
+        <div id="header">
+            <div class="container">
+                <div class="nav_header">
+                    <div class="menu-pc">
+                        <div id="nav_sticky" class="menu-content overlay">
+                            <div class="logo-menu-pc">
+                                <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo logo-pc img-fluid" alt=""></a>
+                            </div>
+                            <nav class="menu-demo">
+                                <ul class="list-menu">
+                                    <li class="menu__item">
+                                       
+                                        <a href="../page/about.html" class="menu__link active ">About us</a>
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="https://missionxvr.com/index" target="_blank" class="menu__link ">Project </a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+        
+                                        <a href="./immersive.html" class="menu__link ">Immersive Activies</a>
+        
+                                    </li>
+                                    <li class="menu__item to-left">
+                                        <a href="./contact.html" class="menu__link menu_news ">Contact </a>
+                                    </li>
+                                </ul>
+                                
+                                
+                            </nav>
+                        </div>
+                    </div>
+                
+                    <div class="menu-mobile mean-container">
+                        
+                        <div class="mean-bar">
+                            <div class=" logo-mobile">
+                                <div class="logo-menu">
+                                    <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo img-fluid" alt=""></a>
+                                </div>
+                                <div class="logo-close"  aria-expanded="false" data-toggle="collapse" data-target="#menusilde">
+                                    <!-- <span class="meanmenu-reveal meanclose" style="">X</span> -->
+                                    <i class="fas fa-bars open-menu"></i>
+                                </div>
+                                
+                            </div>
+                            
+                            <nav class="mean-nav collapse"  id="menusilde">
+                                <ul>
+                                    <li>
+                                        <a href="../page/about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://missionxvr.com/index" target="_blank">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="./immersive.html">Immersive Activies</a>
+                                    </li>
+                                    <li>
+                                        <a href="./contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
+            
         </div>
-    </nav>
+
+    </header>
    <!-- about us -->
     <div class="about-us">
         <div class="container-fluid">
@@ -61,7 +119,7 @@
         <div class="container">
             <div class="row aboutus1">
                 <div class="col-12">
-                    <h1 class="title" >About Us</h1>
+                    <!-- <h1 class="title" >About Us</h1> -->
                     <div class="content1">
                         <span>Holomia là nền tảng thực tế ảo cho phép bạn học hỏi và trải nghiệm một cách trực quan qua góc nhìn  VR, 360 độ .
                             Holomia - Change the world you see.</span>
@@ -76,7 +134,7 @@
         </div>
        
         <div class="row">
-            <!-- <div class="container">  -->
+            <div class="container"> 
                 <div class="row content-img " >
                         <span >
                             Một trong những điểm mạnh lớn nhất của VR là khả năng giúp cho mọi người ở khoảng cách xa gặp gỡ đối mặt như đang ở gần nhau.Holomia tin tưởng rằng VR sẽ làm cho văn phòng thực tế ảo, cộng tác từ xa và học tập tại nhà trong môi trường ảo là tương lai của giao tiếp , làm việc và học tập.
@@ -89,7 +147,7 @@
                             giới thiệu không gian, lớp học ảo, phòng họp ảo...
                         </span>
                 </div> 
-            <!-- </div> -->
+            </div>
         </div>
         <div class="view-img">
             <img src="../assets/img/about2.jpg" class="img-fluid" alt="">
@@ -105,7 +163,7 @@
                             thể tương tác và trao đổi trực tiếp trong cùng một không gian</span>
                     </div>
                 </div>
-                <div class="row mission-of_Us ">
+                <div class="row mission-of_Us " id="tamnhin1">
                     <div class="aboutus2-content">
                         <span>Là nền tảng thế giới ảo giúp người dùng có 
                             thể tương tác và trao đổi trực tiếp trong cùng một không gian</span>
@@ -113,6 +171,17 @@
                     <div class="aboutus2-title">
                         <h2>Tầm Nhìn</h2>
                     </div>
+                    
+                </div>
+                <div class="row mission-of_Us " id="tamnhin2">
+                    <div class="aboutus2-title">
+                        <h2>Tầm Nhìn</h2>
+                    </div>
+                    <div class="aboutus2-content">
+                        <span>Là nền tảng thế giới ảo giúp người dùng có 
+                            thể tương tác và trao đổi trực tiếp trong cùng một không gian</span>
+                    </div>
+                    
                     
                 </div>
                 <div class="row mission-of_Us ">
@@ -190,6 +259,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
 </body>
 </html>
