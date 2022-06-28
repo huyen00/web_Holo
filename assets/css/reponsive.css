@@ -33,7 +33,7 @@
         /* padding:2rem 2.5rem; */
     }
     .aboutus2{
-        padding:0rem;
+        /* padding:0rem; */
     }
     .mission-of_Us {
         margin-top: 2rem;
@@ -84,7 +84,7 @@
         margin-left: 2rem;
     }
     .lastest-news h1{
-        color:#ffffff;
+        
     }
     .icon-view span{
         font-size: 15px;
@@ -198,7 +198,7 @@
     }
     .lastest-news h1{
         font-size: 35px;
-        color: #ffffff;
+        
     }
     .icon-view span{
         font-size: 13px;
@@ -323,6 +323,9 @@
     .section2-img{
         width: 50%;
     }
+    .title_section3{
+        padding-top:2rem;
+    }
     .title_section3 h1{
         font-size: 35px;
     }
@@ -343,7 +346,7 @@
     }
     .lastest-news h1{
         font-size: 35px;
-        color: #ffffff;
+       
     }
     .icon-view span{
         font-size: 13px;
@@ -357,41 +360,44 @@
     }
 
     /* page about us */
-    .main-about {
-        height: 50vh;
-        box-sizing: content-box;
+      /* about us */
+      .company-gallery {
+        display: block;
     }
-    .content-aboutus h1{
-        font-size: 35px;
+    .text-company-overview {
+        padding: 1rem 0rem;
+        width: 100%;
     }
-    .view-aboutus h1{
-        font-size: 35px;
+    .img-company-overview{
+        width: 100%;
+        padding:1rem 0rem 0rem;
     }
-    .view-img {
+    .slider-for {
         height: auto;
-        padding-top: 3rem;
+       
     }
-    .content1 span{
-        font-size: 23px;
+    .slider-for .slick-list .slick-track img{
+       width: 100%;
+        object-fit: cover !important;
     }
-    .content-img{
-        padding:2rem 2rem;
+    .slider-nav .slick-track{
+        height: 200px;
+      
     }
-    .content-img span{
-        font-size: 23px;
+    .aboutus2{
+        padding-bottom: 2rem;
     }
-    .aboutus2-title h2 {
-        text-align: center;
-        margin-top: 10%;
+    .aboutus2-view{
+        width: 45%;
+        margin-top:1rem;
     }
-    .mission-of_Us{
-        margin-bottom: 1rem;
+    .aboutus2-left{
+        width: 45%;
+        margin:1rem 1rem 0rem;
     }
-    .aboutus2-content span{
-        font-size: 23px;
-    }
-    .aboutus2-title3 h2{
-        margin-top: 0%;
+    .aboutus2-view img {
+        height: auto;
+        width: 100%;
     }
 
     /* page immersive */
@@ -428,6 +434,10 @@
     }
     .form-group {
         width: 75%;
+    }
+    /*  */
+    .title{
+        font-size: 35px !important;
     }
 }
 
@@ -514,51 +524,52 @@
     }
     .lastest-news h1{
         font-size: 35px;
-        color: #ffffff;
+      
     }
     .item-news{
         width: 100%;
     }
 
     /* page about us */
-    .view-aboutus h1{
-        font-size: 30px;
+      /* about us */
+      .company-gallery {
+        display: block;
     }
-    .content1 {
-        padding-top: 2rem;
-        width: 500px;
-        margin: auto;
+    .text-company-overview {
+        padding: 1rem 0rem;
+        width: 100%;
     }
-    .content1 span {
-        font-size: 20px;
+    .img-company-overview{
+        width: 100%;
+        padding:1rem 0rem 0rem;
     }
-    .view-img {
+    .slider-for {
         height: auto;
-        padding-top: 3rem;
+       
     }
-    .content-img{
-        padding:1rem 2rem;
+    .slider-for .slick-list .slick-track img{
+       width: 100%;
+        object-fit: cover !important;
     }
-    .content-img span {
-        font-size: 20px;
+    .slider-nav .slick-track{
+        height: 50px;
+      
     }
-    .aboutus2 {
-        padding: 0rem;
+    .aboutus2{
+        padding-bottom: 2rem;
     }
-    .mission-of_Us {
-        padding: 1rem 2rem;
-       margin-top:1rem;
+    .aboutus2-view{
+        width: 100%;
+        margin-top:1rem;
     }
-    .aboutus2-title {
+    .aboutus2-left{
+        width: 100%;
+        margin:1rem 0rem 0rem;
+    }
+    .aboutus2-view img {
+        height: auto;
         width: 100%;
     }
-    .aboutus2-content {
-        width: 100%;
-    }
-    .aboutus2-content span {
-        font-size: 20px;
-    }
-
     /* page immersive activities */
     .immersive-img {
         width: 100%;
@@ -602,6 +613,9 @@
     .icon-event a{
         font-size: 13px;
     }
+    .gallery{
+        margin-top:2rem;
+    }
 
     /* page - contact */
     .page-contact h1{
@@ -618,6 +632,10 @@
         margin-top: 2rem;
         padding: 0.7rem 1.5rem;
         font-size: 16px;
+    }
+    /*  */
+    .title{
+        font-size: 30px !important;
     }
 
 }
@@ -674,6 +692,9 @@
 
     }
     /* home */
+    .line1{
+        display: none;
+       }
     #video_page{
         height: 270px;
     }
@@ -727,7 +748,7 @@
         margin-left:1rem;
     }
     .lastest-news h1{
-        color:#ffffff;
+      
         font-size: 30px;
     }
     .item-news{
@@ -735,54 +756,41 @@
     }
 
     /* about us */
-    .view-aboutus h1{
-        font-size: 30px;
-    }
-    .content1 {
-        padding-top: 2rem;
-        width: 400px;
-        margin: auto;
-    }
-    .content1 span {
-        font-size: 20px;
-    }
-    .view-img {
-        height: auto;
-    }
-    .content-img span {
-        font-size: 20px;
-    }
-    .content-img{
-        padding:1rem 1.5rem;
-    }
-    .aboutus2{
-        padding:0rem;
-    }
-    .mission-of_Us{
-        margin-top:1rem;
-    }
-    .aboutus2-title {
-        width: 100%;
-    }
-    .aboutus2-content {
-        width: 100%;
-       
-    }
-    .aboutus-content3{
-        text-align: left;
-    }
-    .aboutus2-content span {
-        font-size: 20px;
-    }
-    #tamnhin1{
-        display: none;
-    }
-    #tamnhin2{
+    .company-gallery {
         display: block;
     }
-    .aboutus2-title h2 {
-        margin-top: 0%;
+    .text-company-overview {
+        padding: 1rem 0rem;
+        width: 100%;
     }
+    .img-company-overview{
+        width: 100%;
+        padding:1rem 0rem 0rem;
+    }
+    .slider-for {
+        height: auto;
+       
+    }
+    .slider-for .slick-list .slick-track img{
+       width: 100%;
+        object-fit: cover !important;
+    }
+    .slider-nav .slick-track{
+        height: 50px;
+      
+    }
+    .aboutus2{
+        padding-bottom: 2rem;
+    }
+    .aboutus2-view{
+        width: 100%;
+        margin-top:1rem;
+    }
+    .aboutus2-left{
+        width: 100%;
+        margin:1rem 0rem 0rem;
+    }
+
     /* page immersive */
     .immersive-img {
         width: 100%;
@@ -899,6 +907,7 @@
 /* max-width: 320px (điện thoại di động, hiển thị chiều dọc) */
 @media  only screen and  (max-width:320px){
 
+   
     /* menu */
     .menu-pc{
         display: none;
@@ -951,6 +960,9 @@
 
     }
    /* home */
+   .line1{
+    display: none;
+   }
    #video_page{
     height: 180px;
    }
@@ -994,9 +1006,7 @@
         margin-left: 0;
         width: 200px;
     }
-    .lastest-news h1{
-        color:#ffffff;
-    }
+    
     .item-news {
         width: 100%;
         position: relative;
@@ -1010,51 +1020,42 @@
     }
 
     /* about us */
-    .content1 {
-        padding-top: 2rem;
-        width: auto;
-        margin: auto;
-    }
-    .content1 span {
-        font-size: 20px;
-    }
-    .view-img {
-        height: auto;
-        padding-top: 3rem;
-    }
-    .content-img{
-        padding:1rem ;
-    }
-    .content-img span {
-        font-size: 20px;
-    }
-    .aboutus2 {
-        padding: 1rem;
-    }
-    .mission-of_Us {
-        padding: 1rem 1rem;
-        background-color: #D9D9D9;
-    }
-    .aboutus2-title {
-        width: 100%;
-    }
-    .aboutus2-content {
-        width: 100%;
-    }
-    .aboutus-content3{
-        text-align: left;
-    }
-    .aboutus2-content span {
-        font-size: 20px;
-    }
-    #tamnhin1{
-        display: none;
-    }
-    #tamnhin2{
+    
+
+    /*  */
+    .company-gallery {
         display: block;
     }
-    .aboutus2-title h2 {
-        margin-top: 0%;
+    .text-company-overview {
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+    .img-company-overview{
+        width: 100%;
+        padding:1rem 0rem 0rem;
+    }
+    .slider-for {
+        height: auto;
+       
+    }
+    .slider-for .slick-list .slick-track img{
+       width: 100%;
+        object-fit: cover !important;
+    }
+    .slider-nav .slick-track{
+        height: 50px;
+      
+    }
+    .aboutus2{
+        padding-bottom: 2rem;
+    }
+    .aboutus2-view{
+        width: 100%;
+        margin-top:1rem;
+    }
+    .aboutus2-left{
+        width: 100%;
+        margin:1rem 0rem 0rem;
     }
 
 
@@ -1154,6 +1155,11 @@
     }
     .calendar a{
         display: none;
+    }
+
+    /*  */
+    .title{
+        font-size: 22px;
     }
 }
 
