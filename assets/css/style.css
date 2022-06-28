@@ -491,7 +491,7 @@ li{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
-.aboutus2{
+/* .aboutus2{
     padding:2rem;
 }
 .aboutus2-title{
@@ -516,8 +516,45 @@ li{
     font-family: 'Poppins', sans-serif;
 }
 #tamnhin2{
-    display: none;
+    display: none; */
+/* } */
+.aboutus2{
+    margin-top:3rem
 }
+.aboutus2-overview{
+    padding:3rem 0rem ;
+}
+.aboutus2-view{
+    width: 30%;
+    margin-right:2rem;
+}
+.aboutus2-view img{
+    height: 200px;
+}
+.view-1{
+    display: block;
+}
+.link-view-1{
+    color:#002A5E !important;
+    font-size: 18px !important;
+    font-weight: 600;
+    display: block;
+    margin:1rem 0rem;
+}
+.aboutus2 h2{
+    text-align: center;
+    padding:2rem 0rem;
+}
+.aboutus2-left{
+    width: 47%;
+    padding:1.5rem;
+    background-color: #fff;
+    margin-right:2rem
+}
+.content-left h5{
+    margin:1.5rem 0rem;
+}
+
 
 /* CONTACT */
 .page-contact{
