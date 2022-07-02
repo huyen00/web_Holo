@@ -1,7 +1,7 @@
 
 
   AOS.init();
-
+ 
 
        var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {

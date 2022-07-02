@@ -15,7 +15,8 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> -->
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"></script> -->
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <!-- Bootstrap CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -123,12 +124,12 @@
             <div class="company-gallery">
                 <div class="text-company-overview">
                     <h1 class="title  text-black" data-aos="fade-right">Công Ty Công Nghệ Holomia</h1>
-                    <span class="text1" >Holomia là nền tảng thực tế ảo cho phép bạn học hỏi
+                    <span class="text1 text-font" >Holomia là nền tảng thực tế ảo cho phép bạn học hỏi
                          và trải nghiệm một cách trực quan qua góc nhìn  VR, 360 độ .
                         Holomia - Change the world you see.</span>
                     <div class="icon-video" data-aos="fade-up">
                        <i class="fas fa-play-circle"></i>
-                       <a href="https://www.youtube.com/watch?v=jG71-DrTHc8&t=129s" data-fancybox="video-gallery" data-animation="fadeInLeft" data-delay="1s" class="link-video">Giới thiệu về Holomia</a>
+                       <a href="https://www.youtube.com/watch?v=jG71-DrTHc8&t=129s" data-fancybox class="link-video iframe ">Giới thiệu về Holomia</a>
                     </div>
                 </div>
                 <div class="img-company-overview" data-aos="fade-left">
@@ -159,21 +160,21 @@
                         <img src="../assets/img/HighresScreenshot00000.png" alt="">
                         <div class="view-1">
                             <a href="" class="link-view-1">Tạo phòng họp ảo</a>
-                            <span>cho phép người dùng tạo phòng họp tương tác với nhau</span>
+                            <span class="text-font">cho phép người dùng tạo phòng họp tương tác với nhau</span>
                         </div>
                     </div>
                     <div class="aboutus2-view" data-aos="fade-down">
                         <img src="../assets/img/HighresScreenshot00002.png" alt="">
                         <div class="view-1">
                             <a href="" class="link-view-1">Tương tác người dùng</a>
-                            <span>cho phép người dùng tạo phòng họp tương tác với nhau</span>
+                            <span class="text-font">cho phép người dùng tạo phòng họp tương tác với nhau</span>
                         </div>
                     </div>
                     <div class="aboutus2-view" data-aos="fade-down">
                         <img src="../assets/img/bground2.jpg" alt="">
                         <div class="view-1">
                             <a href="" class="link-view-1">Mission X Laser</a>
-                            <span>cho phép người dùng tạo phòng họp tương tác với nhau</span>
+                            <span class="text-font">cho phép người dùng tạo phòng họp tương tác với nhau</span>
                         </div>
                     </div>
                 </div>      
@@ -193,7 +194,7 @@
                         </div>
                         <div class="content-left">
                             <h5>Vision </h5>
-                            <span>Tầm  nhìn của Holomia là trở thành công ty công nghệ cung cấp các không gian ảo, lớp học ảo giúp cho người dùng dễ dang trực tiếp trao đổi với nhau dù khoảng cách có xa</span>
+                            <span class="text-font">Tầm  nhìn của Holomia là trở thành công ty công nghệ cung cấp các không gian ảo, lớp học ảo giúp cho người dùng dễ dang trực tiếp trao đổi với nhau dù khoảng cách có xa</span>
                         </div>
                     </div>
                     <div class="aboutus2-left" data-aos="fade-up">
@@ -202,7 +203,7 @@
                         </div>
                         <div class="content-left">
                             <h5>Mission</h5>
-                            <span>Sứ mệnh của Holomia là trở thành công ty công nghệ cung cấp các không gian ảo, lớp học ảo giúp cho người dùng dễ dang trực tiếp trao đổi với nhau dù khoảng cách có xa</span>
+                            <span class="text-font">Sứ mệnh của Holomia là trở thành công ty công nghệ cung cấp các không gian ảo, lớp học ảo giúp cho người dùng dễ dang trực tiếp trao đổi với nhau dù khoảng cách có xa</span>
                         </div>
                     </div>
                 </div>
@@ -264,6 +265,13 @@
         </div>
     </footer>
    
+    <script>
+        $(document).ready(function(){
+            $('[data-fancybox]').fancybox({
+   
+});
+        });
+    </script>
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -272,7 +280,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"> -->
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> -->
+
+    <!-- <script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script> -->
+    <script type="text/javascript" src="..assets/js/fancy2.js"></script>
+    <script type="text/javascript" src="..assets/js/fancy1.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>

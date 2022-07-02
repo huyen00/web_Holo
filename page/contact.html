@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
@@ -35,22 +36,29 @@
                     <div class="menu-pc">
                         <div id="nav_sticky" class="menu-content overlay">
                             <div class="logo-menu-pc">
-                                <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo logo-pc img-fluid" alt=""></a>
+                                <a href="../index.html"><img src="../assets/img/logoxanhh.png" class="logo-holo logo-pc img-fluid" alt=""></a>
                             </div>
                             <nav class="menu-demo">
                                 <ul class="list-menu">
                                     <li class="menu__item">
                                        
-                                        <a href="./about.html" class="menu__link  ">About us</a>
+                                        <a href="../index.html" class="menu__link  ">Home</a>
                                     </li>
                                     <li class="menu__item to-left">
         
                                         <a href="https://missionxvr.com/index" target="_blank" class="menu__link ">Project </a>
+                                        <div class="menu-sub">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://missionxvr.com/index" target="_blank">Mission X</a>
+                                                </li>
+                                            </ul>
+                                        </div>
         
                                     </li>
                                     <li class="menu__item to-left">
         
-                                        <a href="../page/immersive.html" class="menu__link active">Immersive Activies</a>
+                                        <a href="../page/immersive.html" class="menu__link ">Immersive Activies</a>
         
                                     </li>
                                     <li class="menu__item to-left">
@@ -68,7 +76,7 @@
                         <div class="mean-bar">
                             <div class=" logo-mobile">
                                 <div class="logo-menu">
-                                    <a href="../index.html"><img src="../assets/img/Holomia.png" class="logo-holo img-fluid" alt=""></a>
+                                    <a href="../index.html"><img src="../assets/img/logoxanhh.png" class="logo-holo img-fluid" alt=""></a>
                                 </div>
                                 <div class="logo-close"  aria-expanded="false" data-toggle="collapse" data-target="#menusilde">
                                     <!-- <span  class="meanmenu-reveal meanclose" >X</span> -->
@@ -80,10 +88,17 @@
                             <nav class="mean-nav collapse"  id="menusilde">
                                 <ul>
                                     <li>
-                                        <a href="./about.html">About us</a>
+                                        <a href="../index.html">Home</a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://missionxvr.com/index">Project</a>
+                                        <a class="link_sub" target="_blank" href="https://missionxvr.com/index">Project</a>
+                                        <!-- <div class="menu-sub">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://missionxvr.com/index" target="_blank">Mission X</a>
+                                                </li>
+                                            </ul>
+                                        </div> -->
                                     </li>
                                     <li>
                                         <a href="../page/immersive.html">Immersive Activies</a>
@@ -102,14 +117,58 @@
         </div>
 
     </header>
+    <!-- about us -->
+    <div class="about-us">
+        <div class="container-fluid">
+            <div class="main-about">
+                <div class="background-aboutus"></div>
+                <div class="row content-aboutus">
+                    <h1 class="title">about us</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="company-overview">
+        <div class="container">
+            <div class="company-gallery">
+                <div class="text-company-overview">
+                    <h1 class="title  text-black" data-aos="fade-right">Công Ty Công Nghệ Holomia</h1>
+                    <span class="text1 text-font" >Holomia là nền tảng thực tế ảo cho phép bạn học hỏi
+                         và trải nghiệm một cách trực quan qua góc nhìn  VR, 360 độ .
+                        Holomia - Change the world you see.</span>
+                    <!-- <div class="icon-video" data-aos="fade-up">
+                       <i class="fas fa-play-circle"></i>
+                       <a href="https://www.youtube.com/watch?v=jG71-DrTHc8&t=129s" data-fancybox class="link-video iframe ">Giới thiệu về Holomia</a>
+                    </div> -->
+                </div>
+                <div class="img-company-overview" data-aos="fade-left">
+                    <div class="slider-for">
+                        <img src="../assets/img/1.jpg" alt="">
+                        <img src="../assets/img/99.jpg" alt="">
+                        <img src="../assets/img/10.jpg" alt="">
+                        <img src="../assets/img/13.jpg" alt="">
+                    </div>
+                    <div class="slider-nav">
+                        <img src="../assets/img/1.jpg" alt="">
+                        <img src="../assets/img/99.jpg" alt="">
+                        <img src="../assets/img/10.jpg" alt="">
+                        <img src="../assets/img/13.jpg" alt="">
+                        
+                    </div>
+                </div>
+            </div> 
+            
+        </div>
+        
+    </div>
     <!-- contact -->
     <div class="page-contact">
         <div class="container">
             <div class="row d-block">
                 <h1 class="title text-center">contact us</h1>
                 <div class="icon-contact text-center pt-4">
-                    <a href="" class="pr-4"><i class="fab fa-facebook"></i></a>
-                    <a href="" class="pr-4"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/search/top?q=holomia" class="pr-4"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/results?search_query=holomia" class="pr-4"><i class="fab fa-youtube"></i></a>
                     <a href="" class="pr-4"><i class="fab fa-instagram-square"></i></a>
                 </div>
                 <div class="text-center pt-4">
@@ -144,11 +203,11 @@
             <div class="container">
                 <div class="row">
                     <div class="company-information">
-                        <img src="../assets/img/Holomia.png" class="img-fluid logo_company" alt="">
+                        <img src="../assets/img/logoxanhh.png" class="img-fluid logo_company" alt="">
                         <span class="title-company">HolomiaVR - Công ty công nghệ thông tin</span>
                         <div class="link-icon">
-                            <a href=""><i class="fab fa-facebook"></i></a>
-                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href="https://www.facebook.com/search/top?q=holomia"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/results?search_query=holomia"><i class="fab fa-youtube"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
@@ -165,7 +224,7 @@
                         <h4>Project</h4>
                         <ul>
                             <li>
-                                <a href="../page/about.html">Holomia</a>
+                                <a href="../index.html">Holomia</a>
                             </li>
                             <li>
                                 <a href="https://missionxvr.com/index">Mission X VR Arena</a>
@@ -184,7 +243,7 @@
                             Copyright @ 2022 Holomia Technology
                         </div>
                         <div class="right_end">
-                            <a href="../page/about.html"> <span>About</span></a>
+                            <a href="../index.html"> <span>About</span></a>
                             <a href="../page/immersive.html"><span>News</span></a>                            
                         </div>
                     </div>
@@ -198,6 +257,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/js/main.js"></script>
