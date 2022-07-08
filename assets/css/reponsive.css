@@ -55,6 +55,9 @@
     .icon-event a{
         font-size: 13px;
     }
+    .item-team{
+        width: 23% !important;
+    }
 }
 
 /* max-width: 1024px (máy tính bảng loại to, hiển thị chiều ngang) */
@@ -111,6 +114,9 @@
         width: 30%;
         margin: 1rem 0.7rem;
     }
+    .item-team {
+        width: 30%;
+    }
 }
 
 @media all and (min-width:992px){
@@ -119,6 +125,13 @@
     }
     .menu-mobile{
         display: none;
+    }
+    /* home */
+    .aboutus2-left {
+        width: 45%;
+    }
+    .item-team {
+        width: 30%;
     }
 }
 
@@ -136,6 +149,17 @@
     .nav_header{
         width: 100%;
     }
+    /* home */
+    .item-news {
+        width: 46%;
+    }
+    .aboutus2-left {
+        width: 45%;
+    }
+    .item-team{
+        width: 30%;
+    }
+
 }
 /* max-width: 800px (máy tính bảng, hiển thị chiều ngang) */
 @media all and (max-width:800px){
@@ -200,6 +224,9 @@
         font-size: 35px;
         
     }
+    .item-news{
+        width: 45%;
+    }
     .icon-view span{
         font-size: 13px;
     }
@@ -209,6 +236,9 @@
     }
     .read-more {
         padding-top:0rem;
+    }
+    .aboutus2-left {
+        width: 45%;
     }
 
     /* page about us */
@@ -284,6 +314,9 @@
     .form-group {
         width: 75%;
     }
+    .item-team {
+        width: 30%;
+    }
 }
 
 /*  max-width: 768px (máy tính bảng loại to, hiển thị chiều dọc)*/
@@ -347,6 +380,9 @@
     .lastest-news h1{
         font-size: 35px;
        
+    }
+    .item-news {
+        width: 45%;
     }
     .icon-view span{
         font-size: 13px;
@@ -438,6 +474,10 @@
     /*  */
     .title{
         font-size: 35px !important;
+    }
+    /* our team */
+    .item-team{
+        width: 45%;
     }
 }
 
@@ -636,6 +676,10 @@
     /*  */
     .title{
         font-size: 30px !important;
+    }
+    /* our team */
+    .item-team{
+        width: 45%;
     }
 
 }
@@ -903,6 +947,10 @@
     .calendar a{
         display: none;
     }
+    /* our team */
+    .item-team{
+        width: 100%;
+    }
 }
 /* max-width: 320px (điện thoại di động, hiển thị chiều dọc) */
 @media  only screen and  (max-width:320px){
@@ -1160,6 +1208,10 @@
     /*  */
     .title{
         font-size: 22px;
+    }
+    /* our team */
+    .item-team{
+        width: 100%;
     }
 }
 

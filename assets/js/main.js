@@ -15,12 +15,25 @@
         }
 
         $(document).ready(function(){
-            $(".logo-close").click(function(){
-              $(".mean-nav").toggle();
+          $(".meanclose").hide();
+            $(".open-menu").click(function(){
+              $(".open-menu").hide();
+              $(".meanclose").show();
+              $(".mean-nav").show();
+            });
+            $(".meanclose").click(function(){
+              $(".open-menu").show();
+              $(".meanclose").hide();
+              $(".mean-nav").hide();
+            });
+
+            $(".dropdown-mobile").click(function(){
+              $(".dropdown-content-mobile").toggle();
             });
           });
+         
 
-
+          
 
 
           $('.slider-for').slick({
@@ -40,3 +53,10 @@
             focusOnSelect: true,
             autoplay:true
           });
+
+          // Init fancybox, skip cloned elements
+// $().fancybox({
+//   selector : selector,
+//   backFocus : false,
+//   animationEffect : "fade"
+// });
