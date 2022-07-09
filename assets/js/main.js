@@ -1,6 +1,5 @@
 
 
-  AOS.init();
  
 
        var prevScrollpos = window.pageYOffset;
@@ -8,12 +7,21 @@
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("header").style.top = "0";
+            console.log("123");
         } else {
-            document.getElementById("header").style.top = "-100px";
+           document.getElementById("header").style.top = "0px";
+           document.getElementById("header").style.top = "-100px";
+          //  document.getElementById("header").style.width = "100%";
+          //  document.getElementById("header").style.zIndex = "100";
+          //  document.getElementById("header").style.position = "fixed";
+            console.log("567");
         }
         prevScrollpos = currentScrollPos;
         }
 
+        // animation aos
+  AOS.init();
+        // menu mobile
         $(document).ready(function(){
           $(".meanclose").hide();
             $(".open-menu").click(function(){
@@ -55,8 +63,11 @@
           });
 
           // Init fancybox, skip cloned elements
-// $().fancybox({
-//   selector : selector,
-//   backFocus : false,
-//   animationEffect : "fade"
-// });
+
+    //  fancybox   //  
+$().fancybox({
+  selector : selector,
+  backFocus : false,
+  animationEffect : "fade"
+});
+

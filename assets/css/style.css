@@ -94,32 +94,6 @@ li{
     border-top:0;
   }
 
-
-/* .menu__item:hover .menu-sub{
-    display: block;
-}
-.menu-sub{
-    width: 150px;
-    background-color: #01256e;
-    position: absolute;
-    display: none;
-    padding:0.5rem 1rem;
-    border-radius: 7px;
-    border:1px solid rgb(117, 109, 109);
-  
-    z-index: 1111;
-} */
-
-/* .menu-sub ul{
-    padding-left:0;
-}
-.menu-sub li{
-    list-style: none;
-} */
-/* .link_sub:hover .menu-sub{
-    display: block;
-} */
-
 /* footer */
 .company{
     background-color: #001C54;
@@ -208,6 +182,7 @@ li{
     width: 100%;
    
 }
+
 #video_page{
     width: 100%;
     padding:0;
@@ -222,6 +197,7 @@ li{
     justify-content: center;
     align-items: center;
     z-index: 10;
+    background: #00000052;
 }
 .video_gl iframe {
     height: 175% !important;
@@ -248,10 +224,35 @@ li{
     text-align: center;
 }
 #video_page h1{
-    color: #f49b18;
     font-weight: 700;
     text-transform: uppercase;
 }
+#video_page span {
+    font-size: 16px;
+    display: block;
+    width: 55%;
+    margin: auto;
+    margin-bottom:1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+.btn-create-room{
+    border:0;
+    padding:0.7rem;
+    border-radius:12px;
+    color:#f49b18;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #00000000;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+.btn-create-room:hover{
+    background-color: #002A5E;
+    color:#fff;
+}
+
 /* section2 */
 .section2{
     position: relative;
@@ -774,6 +775,7 @@ li{
 .immersive-activities{
     position: relative;
     padding:0rem 0rem 3rem;
+    margin-top:4rem;
     /* padding-bottom: 3rem; */
 }
 #Video{
@@ -1145,10 +1147,14 @@ hr{
 
   /* demo meunu */
   #header{
-   /* height: 90px; */
-    /* background: #06152D; */
-    top: 0px;
     background-color: #001C54;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 111;
+    /* transition: top 0.2s ease-in-out; */
   }
   .logo{
     height: 100%;
@@ -1423,6 +1429,11 @@ cursor: pointer;
     margin-right:1.2rem;
     margin-top:1rem;
     /* border-radius:12px; */
+  }
+  .item-team:hover{
+    border-radius: 12px;
+    box-shadow: 0 19px 38px rgb(65 58 163 / 32%), 0 15px 12px rgb(0 0 0 / 22%);
+    background-color: #1b1952;
   }
   .img-team{
     justify-content: center;
