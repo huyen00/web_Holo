@@ -384,6 +384,13 @@
     .section2{
         padding:3rem 0rem;
     }
+    .col-text {
+        width: 100%;
+        display: block;
+    }
+    .section2-img{
+        width: 100%;
+    }
     .section3{
         padding:0rem 0rem 3rem;
     }
