@@ -166,8 +166,7 @@ li{
     color:#ffffff;
 }
 .left_end{
-    float: left;
-    width: 50%;
+   text-align: center;
     font-weight: 500;
 }
 .right_end {
@@ -734,16 +733,24 @@ li{
     
 
 }
+.single_page_contact{
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    top: 50%;
+    color:#fff;
+}
 .page-contact h1{
     color:black;
     margin: auto;
 }
 .icon-contact{
-    
+    top:50%;
+   
 }
 .icon-contact i{
     font-size: 30px;
-    color:black;
+    color:#fff;
 }
 .form_contact{
     margin-top:2rem;
@@ -782,6 +789,7 @@ li{
     position: relative;
     padding:0rem 0rem 3rem;
     margin-top:4rem;
+    background-color:aliceblue ;
     /* padding-bottom: 3rem; */
 }
 #Video{
@@ -790,6 +798,10 @@ li{
 .immersive-img{
     width: 50%;
     margin-top:2%;
+}
+.immersive-img iframe{
+    width: 100%;
+    height:100%;
 }
 .immersive-content{
     width: 50%;
