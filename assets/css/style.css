@@ -1196,18 +1196,23 @@ hr{
     right: 0;
     justify-content: end;
     width: inherit;
+    display: flex;
   }
-
+.list-language{
+    display: flex;
+    padding-left:0;
+    margin-bottom: 0;
+    padding-top: 0.3rem;
+}
   .nav_header{
    
     
   }
   .list-menu{
     display:flex;
-    justify-content: end;
+   margin: auto;
     padding-left:0;
-    margin-bottom: 0;
-    padding-top: 0.3rem;
+    
     
   }
   .menu__item {
@@ -1230,7 +1235,7 @@ hr{
   }
  
 .menu-demo{
-    width: 70%;
+    /* width: 70%; */
 }
 .menu__item {
     padding: 0rem 1.5rem;
