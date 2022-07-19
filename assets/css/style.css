@@ -1182,20 +1182,33 @@ hr{
     height:100%;
     display: flex;
   }
+  #nav_sticky{
+    width: 100%;
+  }
   .logo-holo{
     width: 120px;
   }
   .logo-menu-pc{
-    width: 30%;
+   float: left;
   }
+  .menu-demo{
+    float: right;
+    right: 0;
+    justify-content: end;
+    width: inherit;
+  }
+
   .nav_header{
-    width: 70%;
+   
     
   }
   .list-menu{
     display:flex;
     justify-content: end;
     padding-left:0;
+    margin-bottom: 0;
+    padding-top: 0.3rem;
+    
   }
   .menu__item {
     padding:1rem 2rem;
@@ -1222,6 +1235,15 @@ hr{
 .menu__item {
     padding: 0rem 1.5rem;
     list-style: none;
+}
+/* .menu-language-en{
+    padding-right:0.7rem;
+}
+.menu-language-vn{
+    padding-left:0.7rem;
+} */
+.menu-language{
+    padding: 0rem 0.7rem;
 }
 
   /* mobile */
